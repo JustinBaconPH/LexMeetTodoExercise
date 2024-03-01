@@ -10,7 +10,7 @@ function Header() {
         <Navbar.Brand>
           <img
             alt=""
-            src="./src/assets/logo.png"
+            src="./image/logo.png"
             height="30"
             className="d-inline-block align-top"
           />
