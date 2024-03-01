@@ -1,0 +1,47 @@
+.todo-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.todo-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.custom-border {
+  border: 1.5px solid transparent !important;
+  border-image: linear-gradient(to right, #f4512c, #5e1b89) !important;
+  border-image-slice: 1 !important;
+}
+
+.custom-orange {
+  background-color: #f4512c !important;
+  border-color: #ff7f4d !important;
+  border: 1px solid transparent !important;
+
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out !important;
+}
+
+.custom-orange:hover {
+  background-color: #ff7f4d !important;
+  border-color: #ff7f4d !important;
+  border: 1px solid transparent !important;
+}
+
+.custom-purple {
+  background-color: #5e1b89 !important;
+  border-color: #9d71bc !important;
+  border: 1px solid transparent !important;
+
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out !important;
+}
+
+.custom-purple:hover {
+  background-color: #5e1b89 !important;
+  border-color: #9d71bc !important;
+  border: 1px solid transparent !important;
+}

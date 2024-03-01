@@ -1,0 +1,75 @@
+.header-gradient {
+  background: linear-gradient(to right, #f4512c, #5e1b89);
+}
+
+.header-text {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.edit-text {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+}
+
+.col-10p {
+  width: 10% !important;
+}
+
+.col-3p {
+  width: 3% !important;
+  background-color: black;
+}
+
+.custom-border {
+  border: 1.5px solid transparent !important;
+  border-image: linear-gradient(to right, #f4512c, #5e1b89) !important;
+  border-image-slice: 1 !important;
+}
+
+.custom-orange {
+  background-color: #f4512c !important;
+  border-color: #ff7f4d !important;
+  border: 1px solid transparent !important;
+
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out !important;
+}
+
+.custom-orange:hover {
+  background-color: #ff7f4d !important;
+  border-color: #ff7f4d !important;
+  border: 1px solid transparent !important;
+}
+
+.custom-purple {
+  background-color: #5e1b89 !important;
+  border-color: #9d71bc !important;
+  border: 1px solid transparent !important;
+
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out !important;
+}
+
+.custom-purple:hover {
+  background-color: #5e1b89 !important;
+  border-color: #9d71bc !important;
+  border: 1px solid transparent !important;
+}
+
+.custom-checkbox .form-check-input[type="checkbox"] {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  width: 15px !important;
+  height: 15px !important;
+  border: 2px solid purple !important;
+  border-radius: 2px !important;
+  outline: none !important;
+  cursor: pointer !important;
+  vertical-align: middle !important;
+}
+
+.custom-checkbox .form-check-input[type="checkbox"]:checked {
+  background-color: purple !important;
+}
